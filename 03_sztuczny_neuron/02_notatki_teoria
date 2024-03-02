@@ -1,0 +1,9 @@
+1. Dane wpływające do neuronu jego dendrytami (czyli cechy próbek) są zapisywane w postaci wektora x
+2. Wagi przychodzących do neuronu informacji oznaczamy przez wektora
+3. Całkowita wartość pobudzenia perceptronu to wynik mnożenia wektora wag w (po transpozycji) przez wektor cech próbki x.
+    Jest to liczba rzeczywista, której wartość zależy właśnie od w i 
+4. Funkcja aktywacji konwertuje całkowitą wartość pobudzenia perceptronu z do 
+    wartości -1 lub 1 (mówiąc najprościej określa czy cechy wpływające do neuronu tj. dendryty aktywują neuron czy nie). 
+    Jeżeli neuron bada czy dany obiekt jest psem to jeżeli cechy wprowadzone do neurony
+    obrazują psa to funkcja aktywacji zwróci 1. -1 zwrócone będzie jeżeli cechy
+    nie będą obrazować psa.
